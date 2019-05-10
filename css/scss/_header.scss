@@ -1,0 +1,84 @@
+.header {
+	font-family: $roboto;
+}
+.header-top {
+	background: #303030;
+	.contacts:after {
+		content: '';
+		clear: both;
+		display: block;
+	}
+	&__btn {
+		float: right;
+		font-family: $roboto;
+		line-height: 36px;
+		color: #1b1b1b;
+		background-color: $yellow;
+		font-size: 16px;
+		padding: 5px 20px 4px 50px;
+		position: relative;
+	}
+	&__btn:before {
+		content: "\f0b1";
+		font-family: 'icomoon';
+		position: absolute;
+		left: 22px;
+		color: #1b1b1b;
+	}
+	&__phone,
+	&__email {
+		color: #cbcacb;
+		letter-spacing: 0.25px;
+		line-height: 45px;
+		position: absolute;
+	}
+	&__email:before {
+		content: "\f003";
+		font-family: 'icomoon';
+		position: absolute;
+		left: 0;
+		color: $yellow;
+	}
+	&__phone {
+		padding-left: 20px;
+		padding-right: 30px;
+		position: relative;
+	}
+	&__phone:before {
+		content: "\f095";
+		font-family: 'icomoon';
+		position: absolute;
+		left: 0;
+		color: $yellow;
+	}
+	&__email {
+		padding-left: 24px;
+	}
+}
+.header-content {
+	padding: 34px 0 23px;
+	&_flex {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__menu li {
+		display: inline-block;
+	}
+	&__menu li + li {
+		padding-left: 10px;
+	}
+	&__menu a {
+		color: #323232;
+		line-height: 36px;
+		font-size: 16px;
+		border: 1px solid transparent;
+		padding: 0 16px 0 16px;
+		transition: all .4s;
+	}
+	&__menu a:hover {
+		border-color: $yellow;
+	}
+}
+#modal {
+	display: none;
+}

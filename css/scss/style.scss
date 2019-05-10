@@ -1,0 +1,59 @@
+$roboto: 'Roboto', sans-serif;
+$yellow: #ffc222;
+
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+ul,
+li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+body {
+	font-family: 'PT Serif', serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #5e5e5e;
+}
+.default-btn {
+	color: #fff;
+	font-family: $roboto;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.25px;
+	padding: 8px 30px 8px 24px;
+	border: 1px solid $yellow;
+	border-right-width: 20px;
+	position: relative;
+}
+.default-btn:after {
+	content: "\f105";
+	font-family: 'icomoon';
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: -13px;
+}
+
+/* --header-- */
+
+@import 'header';
+
+/* --/header-- */
+
+/* --slider-- */
+
+@import 'slider';
+
+/* --/slider-- */
