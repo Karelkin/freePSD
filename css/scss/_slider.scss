@@ -5,6 +5,10 @@
 	background-position: center;
 	min-height: 500px;
 	.slider__item {
+		position: relative;
+		img {
+			position: absolute;
+		}
 		outline: none;
 		&_wrap {
 			text-align: center;
@@ -38,7 +42,6 @@
 	width: 40px;
 	height: 40px;
 	border: 1px solid #fff;
-	// background-color: transparent;
 	outline: none;
 	cursor: pointer;
 	background-color: $yellow;

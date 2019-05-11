@@ -14,6 +14,16 @@ li {
 	padding: 0;
 	margin: 0;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
 .container {
 	max-width: 1170px;
 	margin: 0 auto;
@@ -36,8 +46,10 @@ body {
 	border: 1px solid $yellow;
 	border-right-width: 20px;
 	position: relative;
+	outline: none;
 }
 .default-btn:after {
+	color: #fff;
 	content: "\f105";
 	font-family: 'icomoon';
 	position: absolute;
@@ -57,3 +69,9 @@ body {
 @import 'slider';
 
 /* --/slider-- */
+
+/* --about-- */
+
+@import 'about';
+
+/* --/about- */
