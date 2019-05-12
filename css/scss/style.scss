@@ -58,20 +58,32 @@ body {
 	right: -13px;
 }
 
-/* --header-- */
+/* -- header -- */
 
 @import 'header';
 
-/* --/header-- */
+/* -- /header -- */
 
-/* --slider-- */
+/* -- slider -- */
 
 @import 'slider';
 
-/* --/slider-- */
+/* -- /slider -- */
 
-/* --about-- */
+/* -- services -- */
+
+@import 'services';
+
+/* -- /services -- */
+
+/* -- about -- */
 
 @import 'about';
 
-/* --/about- */
+/* -- /about -- */
+
+/* -- form -- */
+
+@import 'form';
+
+/* -- /form -- */
