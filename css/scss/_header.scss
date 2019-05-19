@@ -9,6 +9,7 @@
 		display: block;
 	}
 	&__btn {
+		display: block;
 		float: right;
 		font-family: $roboto;
 		line-height: 36px;
@@ -30,7 +31,7 @@
 		color: #cbcacb;
 		letter-spacing: 0.25px;
 		line-height: 45px;
-		position: absolute;
+		position: relative;
 	}
 	&__email:before {
 		content: "\f003";
@@ -77,6 +78,9 @@
 	}
 	&__menu a:hover {
 		border-color: $yellow;
+	}
+	.header__btn-menu {
+		display: none;
 	}
 }
 #modal {

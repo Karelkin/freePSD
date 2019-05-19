@@ -4,5 +4,10 @@ $(function() {
 		prevArrow: '<button type="button" class="slick-btn slick-prev"></button>',
 		infinite: false,
 	});
+
 	$('select').styler({});
+
+	$('.header__btn-menu').on('click', function(){
+		$('.header-content__menu ul').slideToggle(); 
+	})
 });

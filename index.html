@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>FreePSD</title>
 	<link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
@@ -9,7 +10,6 @@
 	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/jquery.formstyler.css">
-	<!-- <link rel="stylesheet" href="css/jquery.formstyler.theme.css"> -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -33,6 +33,9 @@
 					<a href="#"><img src="img/logo.png" alt=""></a>
 				</div>
 				<nav class="header-content__menu">
+					<div class="header__btn-menu">
+						<span class="icon-bars"></span>
+					</div>
 					<ul>
 						<li><a href="#">Главная</a></li>
 						<li><a href="#">О компании</a></li>
@@ -43,6 +46,7 @@
 			</div>
 		</div>
 	</header>
+	
 	<section class="slider">
 		<div class="container">
 			<div class="slider-inner">
@@ -363,7 +367,7 @@
 						</ul>
 					</div>
 					<div class="footer__map">
-						<iframe width='630px' height='250px' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7996.847879515854!2d30.3604984!3d59.9286248!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf95b1ccafbdaf1ae!2z0JPQsNC70LXRgNC10Y8!5e0!3m2!1sru!2sru!4v1557821616344!5m2!1sru!2sru"frameborder="0" style="border:0" allowfullscreen></iframe>
+						<iframe height='250px' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7996.847879515854!2d30.3604984!3d59.9286248!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf95b1ccafbdaf1ae!2z0JPQsNC70LXRgNC10Y8!5e0!3m2!1sru!2sru!4v1557821616344!5m2!1sru!2sru"frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
@@ -371,15 +375,18 @@
 		<div class="footer__copy">
 			<div class="container">
 				<div class="copy__text">
-					© 2017 Template by Anastasia Shaposhnyk. Все права защищены.
+					&copy; 2017 Template by Anastasia Shaposhnyk. Все права защищены.
 				</div>
 			</div>
 		</div>
 	</footer>
 
 	<div id="modal">
-    <h2>Hello!</h2>
-    <p>You are awesome!</p>
+    <form>
+    	<input type="text" placeholder="Ваше имя">
+    	<input type="text" placeholder="Ваш телефон">
+    	<input type="submit" value='Отправить'>
+    </form>
   </div>
 
 
